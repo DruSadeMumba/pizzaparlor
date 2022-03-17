@@ -1,5 +1,7 @@
 *  {
 	font-family: fantasy;
+	text-align: center;
+	
 }
 .card-header  {
   text-align: center;
@@ -9,6 +11,7 @@
 	padding-left: 150px;
   font-style: italic;
 	color: coral;
+	
 }
 
 img  {
@@ -24,9 +27,12 @@ img:hover  {
 }
 .texts  {
 	display: none; 
-	text-align: center;
 	color: grey;
 }   
 .container  {
 	padding-top: 25px;
+	background-color: blanchedalmond;
+}
+form  {
+	padding: 50px;
 }
