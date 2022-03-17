@@ -20,7 +20,13 @@ img  {
 }
 img:hover  {
 	opacity: 0.5;
+	cursor: pointer;
 }
 .texts  {
-	display: none;
-}  
+	display: none; 
+	text-align: center;
+	color: grey;
+}   
+.container  {
+	padding-top: 25px;
+}
