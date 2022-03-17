@@ -16,9 +16,9 @@ Our webpage should:
 ## Known Bugs
 *
 ## Technologies Used
-*HTML
-*CSS
-*javaScript
+* HTML
+* CSS
+* javaScript
 ## Support and contact details
 drucilla.mumba@student.moringaschool.com
 ### License
