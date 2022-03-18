@@ -156,48 +156,32 @@
 				</div>
 			</div>	
 			<form action="./checkout.html" method="get" id="pizza">
-				<div class="form-group ">
+				<div class="form-group pizza-select">
 					<h2>Choose A pizza</h2>
 					<div class="row">
 						<div class="col-md-4">
 							<input type="radio" name="pizza" id="four-cheese" required>
-							<label for="four cheese">Four Cheese Pizza</label>
-						</div>
-						<div class="col-md-4">
+							<label for="four cheese">Four Cheese Pizza</label><br><br>
 							<input type="radio" name="pizza" id="veggie">
-							<label for="veggie">Veggie Lovers Pizza</label>
-						</div>
-						<div class="col-md-4">
+							<label for="veggie">Veggie Lovers Pizza</label><br><br>
 							<input type="radio" name="pizza" id="pepperoni">
-							<label for="pepperoni">Pepperoni Pizza</label>
+							<label for="pepperoni">Pepperoni Pizza</label><br><br>
 						</div>
-					</div>
-					<div class="row">
 						<div class="col-md-4">
 							<input type="radio" name="pizza" id="meat">
-							<label for="meat">Meat Lovers Pizza</label>
-						</div>
-						<div class="col-md-4">
+							<label for="meat">Meat Lovers Pizza</label><br><br>
 							<input type="radio" name="pizza" id="margherita">
-							<label for="margherita">Margherita Pizza</label>
-						</div>
-						<div class="col-md-4">
+							<label for="margherita">Margherita Pizza</label><br><br>
 							<input type="radio" name="pizza" id="hawaiian">
-							<label for="hawaiian">Hawaiian Pizza</label>
+							<label for="hawaiian">Hawaiian Pizza</label><br><br>
 						</div>
-					</div>
-					<div class="row">
 						<div class="col-md-4">
 							<input type="radio" name="pizza" id="bbq-chicken">
-							<label for="bbq-chicken">Bbq Chicken</label>
-						</div>
-						<div class="col-md-4">
+							<label for="bbq-chicken">Bbq Chicken</label><br><br>
 							<input type="radio" name="pizza" id="the-works">
-							<label for="the-works">The Works Pizza</label>
-						</div>
-						<div class="col-md-4">
+							<label for="the-works">The Works Pizza</label><br><br>
 							<input type="radio" name="pizza" id="chicken-mushroom">
-							<label for="chicken-mushroom">Chicken Mushroom Pizza</label>
+							<label for="chicken-mushroom">Chicken Mushroom Pizza</label><br><br>
 						</div>
 					</div>
 				</div><br>				
@@ -227,58 +211,70 @@
 							<div class="crust-content small">
 								<h2>Choose A Crust (SMALL)</h2>
 								<p>
-									<input type="radio" id="std-sm"required>
-									<label for="std-sm">Standard Crust (+ Ksh 0)</label>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" class="input" name="my-crust" required>Standard Crust (+ Ksh 0)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="cr-sm">
-									<label for="cr-sml">Crispy (+ Ksh 100)</label>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" class="input" name="my-crust" required>Crispy (+ Ksh 100)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="st-sm">
-									<label for="st-sm">Stuffed Crust (+ Ksh 200)</label>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" class="input" name="my-crust" required>Stuffed Crust (+ Ksh 200)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="gl-sm">
-									<label for="gl-sm">Gluten Free Crust (+ Ksh 300)</label>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" class="input" name="my-crust" required>Gluten Free Crust (+ Ksh 300)
+									</label><br>
 								</p>
 							</div>
 							<div class="crust-content medium">
 								<h2>Choose A Crust (MEDIUM)</h2>
 								<p>
-									<input type="radio" id="std-med" required>
-									<label for="std-med">Standard Crust (+ Ksh 0)</label>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" class="input" name="my-crust" required>Standard Crust (+ Ksh 0)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="cr-med">
-									<label for="cr-med">Crispy (+ Ksh 150)</label>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" class="input" name="my-crust" required>Crispy (+ Ksh 150)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="st-med">
-									<label for="st-med">Stuffed Crust (+ Ksh 250)</label>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" class="input" name="my-crust" required>Stuffed Crust (+ Ksh 250)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="gl-med">
-									<label for="gl-med">Gluten Free Crust (+ Ksh 350)</label>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" class="input" name="my-crust" required>Gluten Free Crust (+ Ksh 350)
+									</label><br>
 								</p>
 							</div>
 							<div class="crust-content large">
 								<h2>Choose A Crust (LARGE)</h2>
 								<p>
-									<input type="radio" id="std-l" required>
-									<label for="std-l">Standard Crust (+ Ksh 0)</label>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" class="input" name="my-crust" required>Standard Crust (+ Ksh 0)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="cr-l">
-									<label for="cr-l">Crispy (+ Ksh 200)</label>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" class="input" name="my-crust" required>Crispy (+ Ksh 200)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="st-l">
-									<label for="st-l">Stuffed Crust (+ Ksh 300)</label>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" class="input" name="my-crust" required>Stuffed Crust (+ Ksh 300)
+									</label><br>
 								</p>
 								<p>
-									<input type="radio" id="gl-l">
-									<label for="gl-l">Gluten Free Crust (+ Ksh 400)</label>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" class="input" name="my-crust" required>Gluten Free Crust (+ Ksh 400)
+									</label><br>
 								</p>
 							</div>
 						</div>
@@ -290,45 +286,45 @@
 							<h2>TOPPINGS (SMALL)</h2>
 							<div class="col-md-6">
 								<p>
-									<input type="checkbox" name="toppings" id="onions" required>
+									<input type="checkbox" id="onions">
 									<label for="onions">Onions (+ Ksh 50)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="peppers">
+									<input type="checkbox" id="peppers">
 									<label for="peppers">Peppers (+ Ksh 50)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="tomato">
+									<input type="checkbox" id="tomato">
 									<label for="tomato">Cherry Tomatoes (+ Ksh 50)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="olives">
+									<input type="checkbox" id="olives">
 									<label for="olives">Olives (+ Ksh 100)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="mushrooms">
+									<input type="checkbox" id="mushrooms">
 									<label for="mushrooms">Mushrooms (+ Ksh 100)</label>	
 								</p>
 							</div>
 							<div class="col-md-6">
 								<p>
-									<input type="checkbox" name="toppings" id="zucchini">
+									<input type="checkbox" id="zucchini">
 									<label for="zucchini">Zucchini (+ Ksh 100)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="salami">
+									<input type="checkbox" id="salami">
 									<label for="salami">Salami (+ Ksh 150)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="ham">
+									<input type="checkbox" id="ham">
 									<label for="ham">Ham (+ Ksh 150)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="bacon">
+									<input type="checkbox" id="bacon">
 									<label for="bacon">Bacon (+ Ksh 150)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="cheese">
+									<input type="checkbox" id="cheese">
 									<label for="cheese">Extra Cheese (+ Ksh 150)</label>	
 								</p>
 							</div>		
@@ -339,45 +335,45 @@
 							<h2>Toppings (MEDIUM)</h2>
 							<div class="col-md-6">
 								<p>
-									<input type="checkbox" name="toppings" id="onions" required>
+									<input type="checkbox" id="onions">
 									<label for="onions">Onions (+ Ksh 75)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="peppers">
+									<input type="checkbox" id="peppers">
 									<label for="peppers">Peppers (+ Ksh 75)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="tomato">
+									<input type="checkbox" id="tomato">
 									<label for="tomato">Cherry Tomatoes (+ Ksh 75)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="olives">
+									<input type="checkbox" id="olives">
 									<label for="olives">Olives (+ Ksh 150)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="mushrooms">
+									<input type="checkbox" id="mushrooms">
 									<label for="mushrooms">Mushrooms (+ Ksh 150)</label>	
 								</p>
 							</div>
 							<div class="col-md-6">
 								<p>
-									<input type="checkbox" name="toppings" id="zucchini">
+									<input type="checkbox" id="zucchini">
 									<label for="zucchini">Zucchini (+ Ksh 150)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="salami">
+									<input type="checkbox" id="salami">
 									<label for="salami">Salami (+ Ksh 200)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="ham">
+									<input type="checkbox" id="ham">
 									<label for="ham">Ham (+ Ksh 200)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="bacon">
+									<input type="checkbox" id="bacon">
 									<label for="bacon">Bacon (+ Ksh 200)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="cheese">
+									<input type="checkbox" id="cheese">
 									<label for="cheese">Extra Cheese (+ Ksh 200)</label>	
 								</p>
 							</div>
@@ -388,45 +384,45 @@
 							<h2>TOPPINGS (LARGE)</h2>
 							<div class="col-md-6">
 								<p>
-									<input type="checkbox" name="toppings" id="onions" required>
+									<input type="checkbox" id="onions">
 									<label for="onions">Onions (+ Ksh 100)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="peppers">
+									<input type="checkbox" id="peppers">
 									<label for="peppers">Peppers (+ Ksh 100)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="tomato">
+									<input type="checkbox" id="tomato">
 									<label for="tomato">Cherry Tomatoes (+ Ksh 100)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="olives">
+									<input type="checkbox" id="olives">
 									<label for="olives">Olives (+ Ksh 200)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="mushrooms">
+									<input type="checkbox" id="mushrooms">
 									<label for="mushrooms">Mushrooms (+ Ksh 200)</label>	
 								</p>
 							</div>
 							<div class="col-md-6">
 								<p>
-									<input type="checkbox" name="toppings" id="zucchini">
+									<input type="checkbox" id="zucchini">
 									<label for="zucchini">Zucchini (+ Ksh 200)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="salami">
+									<input type="checkbox" id="salami">
 									<label for="salami">Salami (+ Ksh 250)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="ham">
+									<input type="checkbox" id="ham">
 									<label for="ham">Ham (+ Ksh 250)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="bacon">
+									<input type="checkbox" id="bacon">
 									<label for="bacon">Bacon (+ Ksh 250)</label>	
 								</p>
 								<p>
-									<input type="checkbox" name="toppings" id="cheese">
+									<input type="checkbox" id="cheese">
 									<label for="cheese">Extra Cheese (+ Ksh 250)</label>	
 								</p>
 							</div>
@@ -434,10 +430,11 @@
 					</div>
 				</div>
 				<p>
-					<input type="submit" id="add" value="MORE PIZZA PLEASE!">
+					<label for="numb">Quantity</label>
+          <input type="number" id="numb" min="1" max="10" required>
 				</p><br>
 				<p>
-					<input type="submit" id="exit" value="PROCEED TO CHECKOUT">
+					<input type="submit" onclick="validate()" value="PROCEED TO CHECKOUT">
 				</p>
 			</form>
 		</div>
