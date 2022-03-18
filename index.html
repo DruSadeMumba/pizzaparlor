@@ -27,9 +27,9 @@
 		</div>
 		<div class="container">
 			<form action="">
-				<div class="form-group">
-					<div class="row">
-						<div class="col-md-6">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
 							<h2>Choose A Size</h2>
 							<p>
 								<input type="radio" name="size" id="small" required>
@@ -44,15 +44,17 @@
 								<label for="large">Large  (Ksh 1000)</label>	
 							</p>
 						</div>
+						</div><br>
 						<div class="col-md-6">
-							<h2>Choose A Crust</h2>
+							<div class="form-group">
+								<h2>Choose A Crust (SMALL)</h2>
 							<p>
 								<input type="radio" name="crust" id="standard" required>
 								<label for="standard">Stadard Crust (+ Ksh 0)</label>
 							</p>
 							<p>
 								<input type="radio" name="crust" id="crispy">
-								<label for="crispy">Crispy (+ Ksh 50)</label>
+								<label for="crispy">Crispy (+ Ksh 100)</label>
 							</p>
 							<p>
 								<input type="radio" name="crust" id="stuffed">
@@ -62,13 +64,55 @@
 								<input type="radio" name="crust" id="glut">
 								<label for="glut">Gluten Free Crust (+ Ksh 300)</label>
 							</p>
+							</div>
+							<div class="form-group">
+								<h2>Choose A Crust (MEDIUM)</h2>
+							<p>
+								<input type="radio" name="crust" id="standard" required>
+								<label for="standard">Stadard Crust (+ Ksh 0)</label>
+							</p>
+							<p>
+								<input type="radio" name="crust" id="crispy">
+								<label for="crispy">Crispy (+ Ksh 150)</label>
+							</p>
+							<p>
+								<input type="radio" name="crust" id="stuffed">
+								<label for="stuffed">Stuffed Crust (+ Ksh 250)</label>
+							</p>
+							<p>
+								<input type="radio" name="crust" id="glut">
+								<label for="glut">Gluten Free Crust (+ Ksh 350)</label>
+							</p>
+							</div>
+							<div class="form-group">
+								<h2>Choose A Crust (LARGE)</h2>
+							<p>
+								<input type="radio" name="crust" id="standard" required>
+								<label for="standard">Stadard Crust (+ Ksh 0)</label>
+							</p>
+							<p>
+								<input type="radio" name="crust" id="crispy">
+								<label for="crispy">Crispy (+ Ksh 200)</label>
+							</p>
+							<p>
+								<input type="radio" name="crust" id="stuffed">
+								<label for="stuffed">Stuffed Crust (+ Ksh 300)</label>
+							</p>
+							<p>
+								<input type="radio" name="crust" id="glut">
+								<label for="glut">Gluten Free Crust (+ Ksh 400)</label>
+							</p>
+							</div>
 						</div>
 					</div>
-				</div><br>
 				<div class="form-group">
 					<div class="row">
-						<h2>Extra Toppings</h2>
+						<h2>Toppings</h2>
 						<div class="col-md-6">
+							<p>
+								<input type="checkbox" name="toppings" id="onions">
+								<label for="onions">Onions (+ Ksh 50)</label>	
+							</p>
 							<p>
 								<input type="checkbox" name="toppings" id="peppers">
 								<label for="peppers">Peppers (+ Ksh 50)</label>	
@@ -87,6 +131,10 @@
 							</p>
 						</div>
 						<div class="col-md-6">
+							<p>
+								<input type="checkbox" name="toppings" id="zucchini">
+								<label for="zucchini">Zucchini (+ Ksh 100)</label>	
+							</p>
 							<p>
 								<input type="checkbox" name="toppings" id="salami">
 								<label for="salami">Salami (+ Ksh 200)</label>	
