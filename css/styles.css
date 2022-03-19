@@ -1,17 +1,16 @@
 *  {
 	font-family: fantasy;
 	text-align: center;
-	
 }
+
 .card-header  {
   text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 	padding-right: 20px;
 	padding-left: 150px;
   font-style: italic;
-	color: coral;
-	
+	color: coral;	
 }
 
 img  {
@@ -21,18 +20,82 @@ img  {
 	padding: 10px;
 	border-radius: 50px;
 }
+
 img:hover  {
 	opacity: 0.5;
 	cursor: pointer;
 }
-.texts  {
+
+#four-cheese-texts  {
 	display: none; 
-	color: grey;
-}   
-.container  {
+	color: rgb(32, 31, 31);
+}  
+#veggie-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+#pepperoni-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+#meat-lovers-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+#margherita-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+#hawaiian-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+#the-works-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+#bbq-chicken-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+#chicken-mushroom-texts  {
+	display: none; 
+	color: rgb(32, 31, 31);
+}  
+
+.container-fluid  {
 	padding-top: 25px;
 	background-color: blanchedalmond;
 }
+
+.clickable1 {
+	cursor: pointer;
+}
+.clickable2 {
+	cursor: pointer;
+}
+.clickable3 {
+	cursor: pointer;
+}
+.clickable4 {
+	cursor: pointer;
+}
+.clickable5 {
+	cursor: pointer;
+}
+.clickable6 {
+	cursor: pointer;
+}
+.clickable7 {
+	cursor: pointer;
+}
+.clickable8 {
+	cursor: pointer;
+}
+.clickable9 {
+	cursor: pointer;
+}
+
 form  {
 	padding: 50px;
 }
