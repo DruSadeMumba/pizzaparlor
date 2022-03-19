@@ -11,18 +11,17 @@ function myPizza() {
 	}
 	document.getElementById("results").innerHTML = txt ;
 }
+	
 
 
-function validate() {
-	var pizzas = document.getElementsByClassName("pizza-select");
-	var sizes = document.getElementsByClassName("size-select");
-	var crusts = document.getElementsByClassName("crust-select");
-	var quantity = document.getElementsById("numb");
+document.getElementById("delivery").onclick = function(){
+	let place = prompt("ENTER DELIVERY ADDRESS");
+	let quantity = document.getElementById("numb");
 
-	if (pizzas.value == "" || sizes.value == "" || crusts == "" || quantity == "");  {
-		alert("Please fill in required fields");
-	}
-}
+	document.getElementById("check").onclick = function(){
+		alert("Your pizza will be delivered at" + " " + place);
+		}
+} 
 
 
 /* UI Logic */

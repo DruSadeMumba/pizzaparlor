@@ -457,24 +457,17 @@
 					<label for="numb"><strong>Quantity</strong></label>
           <input type="number" id="numb" min="1" max="10"  required>
 				</p><br><br>
-				<div class="form-group pickup-delivery">
+				<div class="form-group ">
 					<h2>Choose an option:</h2><br>
-					<label class="" data-radio="pickup">
-						<input type="radio" class="input" name="acquisition" required>PICKUP
+					<label id="pickup" data-radio="pickup">
+						<input type="radio"  name="acquisition" value="Pickup" required>PICK-UP
 					</label><br><br>
-					<label class="" data-radio="delivery">
-						<input type="radio" class="input" name="acquisition" required>DELIVERY
+					<label id="delivery" data-radio="delivery">
+						<input type="radio" name="acquisition" value="Delivery" required>DELIVERY
 					</label><br><br>
-					<div class="form-group location-select">
-						<p>
-							<label class="" data-radio="delivery">
-								<input type="text" class="input" name="my-location" placeholder="Input your location here" required>
-							</label><br>
-						</p>
-					</div>
 				</div><br>
 				<p>
-					<input type="submit" onclick="validate()" value="PLACE ORDER">
+					<input type="submit" id="check" onclick="validate()" value="PLACE ORDER">
 				</p>
 				<details class="summary">
 					<summary><input type="button" onclick="myPizza()" value="View My Order"></summary><br><br>
