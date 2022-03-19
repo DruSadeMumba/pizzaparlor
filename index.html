@@ -335,7 +335,7 @@
 					</div>
 					<div class="toppings-content medium">
 						<div class="row">
-							<h2>Toppings (MEDIUM)</h2>
+							<h2>TOPPINGS (MEDIUM)</h2>
 							<div class="col-md-6">
 								<p>
 									<input type="checkbox" id="onions">
@@ -433,9 +433,26 @@
 					</div>
 				</div>
 				<p>
-					<label for="numb">Quantity</label>
+					<label for="numb"><strong>Quantity</strong></label>
           <input type="number" id="numb" min="1" max="10" required>
-				</p><br>
+				</p><br><br>
+				<div class="form-group pickup-delivery">
+					<h2>Choose an option:</h2><br>
+					<label class="" data-radio="pickup">
+						<input type="radio" class="input" name="acquisition" required>PICKUP
+					</label><br><br>
+					<label class="" data-radio="delivery">
+						<input type="radio" class="input" name="acquisition" required>DELIVERY
+					</label><br>
+					<div class="form-group location-select">
+						<p>
+							<label class="" data-radio="delivery">
+								<input type="text" class="input" name="my-location" placeholder="Input your location here" required>
+							</label><br>
+						</p>
+					</div>
+
+				</div><br>
 				<p>
 					<input type="submit" onclick="validate()" value="PROCEED TO CHECKOUT">
 				</p>

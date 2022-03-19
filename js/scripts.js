@@ -59,12 +59,7 @@ $(document).ready(function(){
 	});
 });
 
-
-
 $(document).ready(function(){
-	$("form#pizza").submit(function (event) {
-		event.preventDefault();
-	})
 	$(".crust .crust-content").hide();
 	$(".size-select").click(function() {
 		var pizzaSize = $(this).attr("data-radio");
@@ -77,4 +72,19 @@ $(document).ready(function(){
 		$(".toppings .toppings-content").hide();
 		$("." + toppingSize).show();
 	});
+});
+
+/* $(document).ready(function(){
+	$(".location-select").hide();
+	$("pickup-delivery").click(function() {
+		var myLocation = $(this).attr("data-radio");
+		$(".location-select").hide();
+		$("." + myLocation).show();
+	});
+});
+ */
+$(document).ready(function(){
+	$("form#pizza").submit(function (event) {
+		event.preventDefault();
+	})
 });
