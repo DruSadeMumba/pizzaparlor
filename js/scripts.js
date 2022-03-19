@@ -1,4 +1,18 @@
 /* Business Logic */
+function myPizza() {
+	let pizza = document.forms[0];
+	let txt = "";
+	let i;
+
+	for (i=0; i<pizza.length; i++){
+		if(pizza[i].checked){
+			txt = txt + pizza[i].value + " ";
+		}
+	}
+	document.getElementById("results").innerHTML = txt ;
+}
+
+
 function validate() {
 	var pizzas = document.getElementsByClassName("pizza-select");
 	var sizes = document.getElementsByClassName("size-select");
@@ -74,15 +88,6 @@ $(document).ready(function(){
 	});
 });
 
-/* $(document).ready(function(){
-	$(".location-select").hide();
-	$("pickup-delivery").click(function() {
-		var myLocation = $(this).attr("data-radio");
-		$(".location-select").hide();
-		$("." + myLocation).show();
-	});
-});
- */
 $(document).ready(function(){
 	$("form#pizza").submit(function (event) {
 		event.preventDefault();

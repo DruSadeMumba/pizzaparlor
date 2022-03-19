@@ -1,6 +1,5 @@
 *  {
 	font-family: fantasy;
-	text-align: center;
 }
 
 .card-header  {
@@ -66,6 +65,7 @@ img:hover  {
 .container-fluid  {
 	padding-top: 25px;
 	background-color: blanchedalmond;
+	text-align: center;
 }
 
 .clickable1 {
@@ -98,4 +98,10 @@ img:hover  {
 
 form  {
 	padding: 50px;
+}
+.card-footer  {
+	padding: 70px;
+}
+.card-footer:hover  {
+	background-color: burlywood;
 }
