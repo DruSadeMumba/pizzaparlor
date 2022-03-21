@@ -14,7 +14,7 @@ Our webpage should:
 * Visit the website provided by the live link
 * Order your pizza!
 ## Known Bugs
-*
+* Does not display price
 ## Technologies Used
 * HTML
 * CSS
