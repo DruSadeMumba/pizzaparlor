@@ -9,20 +9,22 @@ function myPizza() {
 			txt = txt + pizza[i].value + " ";
 		}
 	}
-	document.getElementById("results").innerHTML = txt ;
+	document.getElementById("results").innerHTML = txt;
 }
-	
 
+document.getElementById("pickup").onclick = function(){
+
+		alert("Your pizza will be picked up at Dru's Pizza Parlor");
+	
+} 	
 
 document.getElementById("delivery").onclick = function(){
 	let place = prompt("ENTER DELIVERY ADDRESS");
-	let quantity = document.getElementById("numb");
 
 	document.getElementById("check").onclick = function(){
 		alert("Your pizza will be delivered at" + " " + place);
 		}
 } 
-
 
 /* UI Logic */
 $(document).ready(function(){
