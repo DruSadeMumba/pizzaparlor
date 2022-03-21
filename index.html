@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+		<script src="./js/jquery-3.6.0.js"></script>
+    <title>Document</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="card-header">
+				<style>
+					.card-header  {
+						background-image: url(./img/background.jpg);
+						background-size: cover;
+					}
+				</style>
+					<h1>DRU'S PIZZA PARLOR</h1><br>
+				<h4>...for all your pizza cravings!!!!</h4>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<h1>CHECKOUT OUR PIZZA SELECTION...</h1>
+				<div class="col-md-4">
+					<div id="four-cheese-img">
+						<p><span class="clickable1"><img src="./img/cheese.jpg" alt="4 Cheese Pizza"></span></p>
+					</div>
+					<div id="four-cheese-texts">
+						<h2><span class="clickable1">FOUR CHEESE</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Mozzarella</li>
+						<li>Gorgonzola</li>
+						<li>Fontina parmigiano</li>
+						<li>Tomato sauce</li>	
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="veggie-img">
+						<p><span class="clickable2"><img src="./img/Veggie.jpg" alt="Veggie Pizza"></span></p>
+					</div>
+					<div id="veggie-texts">
+						<h2><span class="clickable2">VEGGIE LOVERS</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Pepper</li>
+						<li>Zucchini</li>
+						<li>Onions</li>
+						<li>Basil</li>
+						<li>Mushrooms</li>
+						<li>Tomato Sauce</li>	
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="pepperoni-img">
+						<p><span class="clickable3"><img src="./img/pepperoni.jpg" alt="Pepperoni Pizza"></span></p>
+					</div>
+					<div id="pepperoni-texts">
+						<h2><span class="clickable3">PEPPERONI</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Spicy salami</li>
+						<li>Tomato Sauce</li>
+						<li>Cheese</li>	
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div id="meat-lovers-img">
+						<p><span class="clickable4"><img src="./img/Meat-Lovers.jpg" alt="Meat Lovers Pizza"></span></p>
+					</div>
+					<div id="meat-lovers-texts">
+						<h2><span class="clickable4">MEAT LOVERS</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Salami</li>
+						<li>Ham</li>
+						<li>Sausage</li>
+						<li>Bacon</li>
+						<li>Cheese</li>		
+						</span></p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="margherita-img">
+						<p><span class="clickable5"><img src="./img/margherita.jpg" alt="Margherita Pizza"></span></p>
+					</div>
+					<div id="margherita-texts">
+						<h2><span class="clickable5">MARGHERITA</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Mozzarella</li>
+						<li>Basil</li>
+						<li>Tomato Sauce</li>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="hawaiian-img">
+						<p><span class="clickable6"><img src="./img/hawaiian.jpg" alt="Hawaiian Pizza">
+						</span></p>
+					</div>
+					<div id="hawaiian-texts">
+						<h2><span class="clickable6">HAWAIIAN</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Pineapple</li>
+						<li>Ham</li>
+						<li>Cheese</li>
+						<li>Tomato Sauce</li>	
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div id="the-works-img">
+						<p><span class="clickable7"><img src="./img/the-works.jpg" alt="The Works Pizza"></span></p>
+					</div>
+					<div id="the-works-texts">
+						<h2><span class="clickable7">THE WORKS</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Onions</li>
+						<li>Olives</li>
+						<li>Green Pepper</li>
+						<li>Mushrooms</li>
+						<li>Bacon</li>
+						<li>Pepperoni</li>
+						<li>Tomato</li>	
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="bbq-chicken-img">
+						<p><span class="clickable8"><img src="./img/bbq-chicken.jpg" alt="Barbeque Chicken Pizza"></span></p>
+					</div>
+					<div id="bbq-chicken-texts">
+						<h2><span class="clickable8">BARBEQUE CHICKEN</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Onions</li>
+						<li>Chicken</li>
+						<li>Basil</li>
+						<li>Green Peppers</li>
+						<li>Bbq Sauce</li>
+						<li>White Sauce</li>	
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="chicken-mushroom-img">
+						<p><span class="clickable9"><img src="./img/chicken-mushroom.jpg" alt="Chicken Mushroom Pizza">
+						</span></p>
+					</div>
+					<div id="chicken-mushroom-texts">
+						<h2><span class="clickable9">CHICKEN MUSHROOM</span></h2>
+						<h3>Ingredients:</h3>
+						<li>Chicken</li>
+						<li>Mushrooms</li>
+						<li>Cheese</li>
+						<li>White Sauce</li>	
+					</div>
+				</div>
+			</div>	
+			<form id="pizza">
+				<div class="form-group pizza-select">
+					<h2>Choose A pizza</h2>
+					<div class="row">
+						<div class="col-md-4">
+							<p><input type="radio" name="pizza" value="Four Cheese Pizza">Four Cheese Pizza</p>
+							<p><input type="radio" name="pizza" value="Veggie Lovers Pizza">Veggie Lovers Pizza</p>
+							<p><input type="radio" name="pizza" value="Pepperoni Pizza">Pepperoni Pizza</p>
+						</div>
+						<div class="col-md-4">
+							<p><input type="radio" name="pizza" value="Meat Lovers Pizza">Meat Lovers Pizza</p>
+							<p><input type="radio" name="pizza" value="Margherita Pizza">Margherita Pizza</p>
+							<p><input type="radio" name="pizza" value="Hawaiian Pizza">Hawaiian Pizza</p>
+						</div>
+						<div class="col-md-4">
+							<p><input type="radio" name="pizza" value="Bbq Chicken Pizza">Bbq Chicken Pizza</p>
+							<p><input type="radio" name="pizza" value="The Works Pizza">The Works Pizza</p>
+							<p><input type="radio" name="pizza" value="Chicken Mushroom Pizza">Chicken Mushroom Pizza</p>
+						</div>
+					</div>
+				</div><br>				
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<h2>Choose A Size</h2>
+							<p>
+								<label class="size-select" data-radio="small">
+									<input type="radio" name="size" value="Small">Small (Ksh 600)
+									<input type="hidden" name="price" value="600" >
+								</label><br>
+							</p>
+							<p>
+								<label class="size-select" data-radio="medium">
+									<input type="radio" name="size" value="Medium">Medium (Ksh 800)
+								</label><br>
+							</p>
+							<p>
+								<label class="size-select" data-radio="large">
+									<input type="radio" name="size" value="Large" required>Large (Ksh 1000)
+								</label><br>
+							</p>
+						</div>
+					</div><br>
+					<div class="col-md-6">
+						<div class="form-group crust">
+							<div class="crust-content small">
+								<h2>Choose A Crust (SMALL)</h2>
+								<p>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" name="my-crust" value="Standard Crust" required>Standard Crust (+ Ksh 0)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" name="my-crust" value="Crispy Crust" required>Crispy (+ Ksh 100)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" name="my-crust" value="Stuffed Crust" required>Stuffed Crust (+ Ksh 200)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="small">
+										<input type="radio" name="my-crust" value="Gluten Free Crust" required>Gluten Free Crust (+ Ksh 300)
+									</label><br>
+								</p>
+							</div>
+							<div class="crust-content medium">
+								<h2>Choose A Crust (MEDIUM)</h2>
+								<p>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" name="my-crust" value="Standard Crust" required>Standard Crust (+ Ksh 0)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" name="my-crust" value="Crispy Crust" required>Crispy Crust (+ Ksh 150)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" name="my-crust" value="Stuffed Crust" required>Stuffed Crust (+ Ksh 250)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="medium">
+										<input type="radio" name="my-crust" value="Gluten Free Crust" required>Gluten Free Crust (+ Ksh 350)
+									</label><br>
+								</p>
+							</div>
+							<div class="crust-content large">
+								<h2>Choose A Crust (LARGE)</h2>
+								<p>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" name="my-crust" value="Standard Crust" required>Standard Crust (+ Ksh 0)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" name="my-crust" value="Crispy Crust " required>Crispy Crust (+ Ksh 200)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" name="my-crust" value="Stuffed Crust" required>Stuffed Crust (+ Ksh 300)
+									</label><br>
+								</p>
+								<p>
+									<label class="crust-select" data-radio="large">
+										<input type="radio" name="my-crust" value="Gluten Free Crust" required>Gluten Free Crust (+ Ksh 400)
+									</label><br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group toppings">
+					<div class="toppings-content small">
+						<div class="row">
+							<h2>TOPPINGS (SMALL)</h2>
+							<div class="col-md-6">
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Onions">Onions (+ Ksh 50)
+									</label><br>	
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Peppers">Peppers (+ Ksh 50)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Cherry Tomatoes">Cherry Tomatoes (+ Ksh 50)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Olives">Olives (+ Ksh 100)
+									</label><br>	
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Mushrooms">Mushrooms (+ Ksh 100)
+									</label><br>	
+								</p>
+							</div>
+							<div class="col-md-6">
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Zucchini">Zucchini (+ Ksh 100)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Salami">Salami (+ Ksh 150)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Ham">Ham (+ Ksh 150)
+									</label><br>	
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Bacon">Bacon (+ Ksh 150)
+									</label><br>	
+								</p>
+								<p>
+									<label class="size-select" data-radio="small">
+										<input type="checkbox" name="toppings" value="Extra Cheese">Extra Cheese (+ Ksh 150)
+									</label><br>
+								</p>
+							</div>		
+						</div>
+					</div>
+					<div class="toppings-content medium">
+						<div class="row">
+							<h2>TOPPINGS (MEDIUM)</h2>
+							<div class="col-md-6">
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Onions">Onions (+ Ksh 75)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Peppers">Peppers (+ Ksh 75) 
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Cherry Tomatoes">Cherry Tomatoes (+ Ksh 75)
+									</label><br>	
+								</p>
+								<p><label class="size-select" data-radio="medium">
+									<input type="checkbox" name="toppings" value="Olives">Olives (+ Ksh 150)
+								</label><br>
+								</p>
+								<p><label class="size-select" data-radio="medium">
+									<input type="checkbox" name="toppings" value="Mushrooms">Mushrooms (+ Ksh 150)
+								</label><br>
+								</p>
+							</div>
+							<div class="col-md-6">
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Zucchini">Zucchini (+ Ksh 150)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Salami">Salami (+ Ksh 200)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Ham">Ham (+ Ksh 200)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Bacon">Bacon (+ Ksh 200)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="medium">
+										<input type="checkbox" name="toppings" value="Extra Cheese">Extra Cheese (+ Ksh 200)
+									</label><br>
+								</p>
+							</div>
+						</div>	
+					</div>
+					<div class="toppings-content large">
+						<div class="row">
+							<h2>TOPPINGS (LARGE)</h2>
+							<div class="col-md-6">
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Onions">Onions (+ Ksh 100)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Peppers">Peppers (+ Ksh 100)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Cherry Tomatoes">Cherry Tomatoes (+ Ksh 100)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Olives">Olives (+ Ksh 200)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Mushrooms">Mushrooms (+ Ksh 200
+									</label><br>
+								</p>
+							</div>
+							<div class="col-md-6">
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Zucchini">Zucchini (+ Ksh 200)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Salami">Salami (+ Ksh 250)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Ham">Ham (+ Ksh 250)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Bacon">Bacon (+ Ksh 250)
+									</label><br>
+								</p>
+								<p>
+									<label class="size-select" data-radio="large">
+										<input type="checkbox" name="toppings" value="Extra Cheese">Extra Cheese (+ Ksh 250)
+									</label><br>
+								</p>
+							</div>
+						</div>	
+					</div>
+				</div>
+				<p>
+					<label for="numb"><strong>Quantity</strong></label>
+          <input type="number" id="numb" min="1" max="10"  required>
+				</p><br><br>
+				<div class="form-group ">
+					<h2>Choose an option:</h2><br>
+					<label id="pickup" data-radio="pickup">
+						<input type="radio"  name="acquisition" value="Pickup" required>PICK-UP
+					</label><br><br>
+					<label id="delivery" data-radio="delivery">
+						<input type="radio" name="acquisition" value="Delivery" required>DELIVERY
+					</label><br><br>
+				</div><br>
+				<p>
+					<input type="submit" id="check" onclick="validate()" value="PLACE ORDER">
+				</p>
+				<details class="summary">
+					<summary><input type="button" onclick="myPizza()" value="View My Order"></summary><br><br>
+					<p id="results">
+						
+					</p>
+				</details><br><br>
+				<div class="card-footer">
+					<h4>Thank you for choosing Dru's Pizza Parlor</h4>
+					<input type="reset" value="ORDER AGAIN">
+				</div>	
+			</form><br><br>
+		</div>
+		<script src="./js/scripts.js"></script>	
+	</body>
+</html>
