@@ -1,11 +1,6 @@
 # PIZZA PARLOR
 #### Pizza order and delivery website, 2022-03-18
 #### By **Drucilla Mumba**
-## Table of content
-*[Description](Description)
-*
-*
-*
 ## Description
 This is an online pizza shop website. Customers can place orders and choose the type of pizza, size,crust and extra toppings. Upon checkout, the customer can either pick up the pizza(s) or have it delivered to a specified location within the city.
 ## Behaviour
